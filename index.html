@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment : 1</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+  </head>
+  <body>
+    <!-- Requirements: 5 - Create a navbar via Bootstrap and it must have a dropdown menu. -->
+    <!-- NavBar start -->
+    <nav class="navbar shadow-sm sticky-top navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><span class="fw-bolder text-primary">CodeWith Abul Hossain</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navContent"
+          aria-controls="navContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+            <li class="nav-item"><a class="nav-link" href=""> Home </a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Me
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Home</a></li>
+                <li><a class="dropdown-item" href="">Resume</a></li>
+                <li><a class="dropdown-item" href="">Project</a></li>
+                <li><a class="dropdown-item" href="">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href=""> Services </a></li>
+            <li class="nav-item"><a class="nav-link" href=""> Blog </a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Login/Register
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="">Login</a></li>
+                <li><a class="dropdown-item" href="">Register</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- NavBar end -->
+    <h1>Hello</h1>
+    <button><a href="contact.html">go</a></button>
+
+    <script src="./src/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

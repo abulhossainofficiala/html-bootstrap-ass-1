@@ -1,3 +1,4 @@
+<!-- Requirements: 1  Create an HTML structure and add CSS and Bootstrap to it.-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment : 1</title>
     <link rel="stylesheet" href="./src/css/bootstrap.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
     <!-- Requirements: 5 - Create a navbar via Bootstrap and it must have a dropdown menu. -->
@@ -27,7 +29,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-            <li class="nav-item"><a class="nav-link" href=""> Home </a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"> Home </a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -39,18 +43,26 @@
                 About Me
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">Home</a></li>
-                <li><a class="dropdown-item" href="">Resume</a></li>
-                <li><a class="dropdown-item" href="">Project</a></li>
-                <li><a class="dropdown-item" href="">Contact</a></li>
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="resume.htm">Resume</a></li>
+                <li>
+                  <a class="dropdown-item" href="project.html">Project</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href=""> Services </a></li>
-            <li class="nav-item"><a class="nav-link" href=""> Blog </a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html"> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html"> Blog </a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href=""
+                href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -58,8 +70,10 @@
                 Login/Register
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">Login</a></li>
-                <li><a class="dropdown-item" href="">Register</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                <li>
+                  <a class="dropdown-item" href="register.html">Register</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -67,9 +81,202 @@
       </div>
     </nav>
     <!-- NavBar end -->
-    <h1>Hello</h1>
-    <button><a href="contact.html">go</a></button>
-
+    <!-- Requirements: 3 - Create a paragraph text and its color will be red. -->
+    <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+    <section>
+      <!-- Requirements: 3 - Create a paragraph text and its color will be red. -->
+      <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+      <div class="container">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-danger mx-auto rounded-1 mt-2">
+            <h1 class="text-center">What is Bootstrap?</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              Bootstrap is the most popular CSS Framework for developing
+              responsive and mobile-first websites. <br />
+              Bootstrap 5 is the newest version of Bootstrap
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-primary">
+              <a
+                class="text-black"
+                href="https://www.w3schools.com/whatis/whatis_bootstrap.asp"
+                target="_blank"
+                >Red More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-info mx-auto rounded-2 mt-2">
+            <h1 class="text-center">Introduction to HTML</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              HTML is the standard markup language for creating Web pages. What
+              is HTML? HTML stands for Hyper Text Markup Language; HTML is the
+              standard markup language ...
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-end">
+              <button class="btn btn-secondary">
+                <a
+                  class="text-white"
+                  href="https://www.w3schools.com/html/html_intro.asp"
+                  target="_blank"
+                  >Learn To HTML</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div
+            class="col-4 w-50 h-25 bg-dark text-danger mx-auto rounded-1 mt-2"
+          >
+            <h1 class="text-center">free image download</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              Download the perfect free pictures. Find over 100+ of the best
+              free free images. Free for commercial use ✓ No attribution
+              required ✓ Copyright-free.
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-center">
+              <button class="btn btn-info">
+                <a
+                  class="text-black"
+                  href="https://unsplash.com/s/photos/free"
+                  target="_blank"
+                  >Download</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 bg-light mx-auto rounded-1 mt-2">
+            <h1 class="text-center">Bootstrap CSS Classes Cheat Sheet</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              These classes control the overall appearance, as well as the
+              showing and hiding via CSS transitions. You can modify any of this
+              with custom CSS or overriding ...
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-success">
+              <a
+                class="text-white"
+                href="https://getbootstrap.com/docs/4.0/components/buttons/"
+                target="_blank"
+                >Cheat Sheet Link</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div
+            class="col-4 w-50 h-25 bg-secondary text-white mx-auto rounded-1 mt-2"
+          >
+            <h1 class="text-center">what is mern stack developer</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <p>
+              MERN Stack Development MERN Stack is a combination of the latest
+              technologies used for creating premium web applications. These
+              applications are developed using multiple frameworks, databases,
+              libraries, and more. It comprises several open-source components
+              such as MongoDB, React, Node. js, and ExpressJS framework.
+            </p>
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <button class="btn btn-danger">
+              <a
+                class="text-info"
+                href="https://www.w3schools.com/whatis/whatis_bootstrap.asp"
+                target="_blank"
+                >Lern More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-4 w-50 h-25 mx-auto rounded-1 mt-2">
+            <h1 class="text-center">My Resume</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9 mx-auto mt-2 text-danger fw-bolder">
+            <!-- Requirements: 2 - Create six buttons by Bootstrap Each button should have different colors and properties. -->
+            <div class="text-center">
+              <button class="btn btn-warning">
+                <a class="text-black" href="resume.htm" target="_blank"
+                  >Check My Resume</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Requirements: 4 -  Put text inside an h1 tag and give it a background color. -->
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 bg-danger-subtle p-4 rounded-bottom-4 rounded-end-4"
+          >
+            <h1 class="text-center text-bg-danger p-3 rounded-4 w-50 mx-auto">
+              MERN Stack Explained
+            </h1>
+            <p>
+              MERN is one of several variations of the
+              <a
+                href="https://www.mongodb.com/resources/languages/mean-stack"
+                target="_blank"
+                >MEAN stack</a
+              >
+              (MongoDB, Express, Angular, Node), where the traditional
+              Angular.js front-end framework is replaced with React.js. Other
+              variants include MEVN (MongoDB, Express, Vue, Node), and really
+              any front-end JavaScript framework.
+            </p>
+            <p>
+              Ready to take the next step? Set up your free MongoDB Atlas
+              account by clicking below and try our
+              <a
+                href="https://www.mongodb.com/resources/languages/mern-stack-tutorial"
+                target="_blank"
+                >MERN Stack Tutorial</a
+              >
+              to create a full-stack MERN application in no time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./src/js/bootstrap.bundle.js"></script>
   </body>
 </html>
